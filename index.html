@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Screen</title>
+</head>
+<body>
+    <div class="title">
+        Employee Resgistration
+    </div>
+    <div class="registrationwindow">
+       <div class="photocontainer">
+           <div class="photo"> 
+                <a href="https://github.com/rafaolidev" target="_blank">
+                     <img src="img/photoemployee.png" alt="">  
+                </a>
+            </div>
+          
+       </div>
+      
+      Name:<input placeholder="Name" type="text">
+      Surname:<input placeholder="Surname" type="text">
+      <div class="martialStatus">
+          Martial Status:
+        <select id="status">
+            <option value="Married">Married</option>
+            <option value="Single">Single</option>
+            <option value="Divorced">Divorced</option>
+            <option value="Engaged">Engaged</option>
+          </select>
+      </div>  
+      <div class="sex">
+          Sex:
+              <input type="checkbox" id="Male" name="male" value="M">
+              <label for="Male">Male</label>
+              <input type="checkbox" id="female" name="female" value="F">
+              <label for="female">Female</label>
+      </div>
+       Spouse N:<input placeholder="Spouse Name" type="text">
+    
+      <h1>Address</h1>
+      Street:<input placeholder="Street" type="text">
+      Area:<input placeholder="Area" type="text">
+      County:<input id="state" placeholder="County" type="text">
+      State:
+      <select id="county">
+        <option value="sp">SP</option>
+        <option value="rj">RJ</option>
+        <option value="pr">PR</option>
+        <option value="df">DF</option>
+      </select>
+    </div>
+    
+</body>
+</html>

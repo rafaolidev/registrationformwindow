@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title {
+   margin-top:50px;
+   text-align: center;
+   height: 50px;
+   width:100%;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 30px;
+   color: grey;
+   text-shadow: 2px 2px 4px black;
+}
+.photocontainer{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.photo {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 1px 2px 10px black;
+}
+.photo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.registrationwindow{
+    background-color: lightslategray;
+    color: white;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    margin:auto;
+    display: flex;
+    width: 510px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.registrationwindow input {
+    outline: none;
+	box-sizing: border-box;
+	display:block;
+	height: 30px;
+    width: 83%;
+	margin: 5px;
+	border: 1px solid gray;
+	font-size: 16px;
+	padding: 10px 20px;
+	text-align: center;
+	background-color:lightgray;
+    color:white;
+    border-radius: 5px;
+}
+.registrationwindow h1 {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.martialStatus {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin: auto;
+}
+.sex {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin:auto;
+    width: 50%;
+    justify-content: center;
+}
+.sex input {
+    width: 20px;
+}
+#state {
+    width: 54%;   
+}
+#county {
+    width: 12%;
+    height: 30px;
+    background-color: lightslategray;
+    color: white;
+}
+#status {
+    background-color: lightslategray;
+    color: white;
+}
