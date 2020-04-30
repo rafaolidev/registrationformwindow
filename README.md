@@ -7,7 +7,7 @@ Form made in the B7Web Front-end Course exercice.<br>
 Make a form page for employee, for future use on a C.R.U.D.E project.<br>
 
 # technologies Used
-CSS - Fully responsive site, using flexbox, the correct use of inputs abd options and they value.<br>
+CSS - Fully responsive site, using flexbox, the correct use of inputs and options and they value.<br>
 HTML - Make Fully use of the Semantic HTML.<br>
 
 # What i Have Learned
