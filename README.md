@@ -3,7 +3,7 @@
 # Employ Registration Form
 Form made in the B7Web Front-end Course exercice.<br>
 
-# Obejctive
+# Objective
 Make a form page for employee, for future use on a C.R.U.D.E project.<br>
 
 # technologies Used
